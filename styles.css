@@ -2,13 +2,12 @@
     font-family: ws_inkskiregular;
     src: url('WsInkski-6Oro.ttf');
 } */
+
 @font-face {
     font-family: 'ws_inkskiregular';
-    src: url('https://www.lharoon.com/fonts/wsinkski-6oro-webfont.woff2') format('woff2'),
-         url('https://www.lharoon.com/fonts/wsinkski-6oro-webfont.woff') format('woff');
+    src: url('https://www.lharoon.com/fonts/wsinkski-6oro-webfont.woff2') format('woff2'), url('https://www.lharoon.com/fonts/wsinkski-6oro-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 html {
@@ -111,7 +110,7 @@ p {
 
 footer {
     margin: 20px auto 0 auto;
-    width: 500px;
+    /* width: 500px; */
     font-size: 12px;
     font-weight: bold;
 }
@@ -135,7 +134,7 @@ footer {
 
 #header a:hover {
     color: white;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 #header a:focus {
@@ -167,7 +166,7 @@ footer {
 /* .active, */
 
 .collapsible:hover {
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 .active {
@@ -204,4 +203,8 @@ footer {
 #content ul {
     font-size: 12px;
     text-align: justify;
+}
+
+img {
+    /* width: 50%; */
 }
