@@ -1,0 +1,207 @@
+/* @font-face {
+    font-family: ws-inkski-font;
+    src: url('WsInkski-6Oro.ttf');
+} */
+@font-face {
+    font-family: 'ws_inkskiregular';
+    src: url('https://www.lharoon.com/fonts/wsinkski-6oro-webfont.woff2') format('woff2'),
+         url('https://www.lharoon.com/fonts/wsinkski-6oro-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html {
+    overflow-y: scroll;
+}
+
+body {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 20px auto 0 auto;
+    padding: 0;
+    max-width: fit-content;
+    /* max-width: 510px; */
+}
+
+header {
+    /* margin: 0;
+    padding: 0; */
+    position: relative;
+    text-align: center;
+    color: white;
+    margin: 0;
+    margin-bottom: -5px;
+}
+
+nav {
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+}
+
+#header ul {
+    margin: auto;
+    padding: 0;
+    display: table;
+    list-style-type: none;
+}
+
+#header li {
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: auto;
+    font-family: ws-inkski-font;
+}
+
+#header li:last-child {
+    margin-right: 0;
+}
+
+/* Rename */
+
+.screenshot {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 2.5px;
+}
+
+h1 {
+    position: relative;
+    /* margin-top: -5px; */
+    text-align: center;
+    color: white;
+    font-size: medium;
+    font-weight: normal;
+    font-family: ws-inkski-font;
+    height: fit-content;
+    margin: 0;
+    margin-bottom: -5px;
+}
+
+h2 {
+    position: relative;
+    margin: 0px;
+    /* margin-top: -20px; */
+    margin-bottom: -5px;
+    text-align: center;
+    color: white;
+    font-size: medium;
+    font-weight: normal;
+    font-family: ws-inkski-font;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+p {
+    font-size: 12px;
+    text-align: justify;
+    margin: 10px auto 10px auto;
+    /* margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto; */
+    width: 480px;
+}
+
+footer {
+    margin: 20px auto 0 auto;
+    width: 500px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* .footer-text {
+    text-align: right;
+    display: inline-table;
+} */
+
+#header a {
+    text-decoration: none;
+}
+
+#header a:link {
+    color: white;
+}
+
+#header a:visited {
+    color: white;
+}
+
+#header a:hover {
+    color: white;
+    font-weight: bold;
+}
+
+#header a:focus {
+    color: white;
+}
+
+#header a:active {
+    color: white;
+}
+
+.collapsible {
+    margin: 0px;
+    padding: 0px;
+    padding-top: 10px;
+    width: 500px;
+    height: 60px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    background-image: url("images/header-bg.png");
+    background-size: 500px 60px;
+    text-align: center;
+    color: white;
+    font-size: medium;
+    font-weight: normal;
+    font-family: ws-inkski-font;
+}
+
+/* .active, */
+
+.collapsible:hover {
+    font-weight: bold;
+}
+
+.active {
+    background-image: url("images/header-bg-active.png");
+}
+
+.content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    /* margin-top: 2.5px; */
+}
+
+.gif-container {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.border {
+    margin-top: 2.5px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.gif {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#content ul {
+    font-size: 12px;
+    text-align: justify;
+}
