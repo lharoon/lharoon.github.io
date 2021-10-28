@@ -20,7 +20,7 @@ body {
     margin: 20px auto 0 auto;
     padding: 0;
     max-width: fit-content;
-    /* max-width: 510px; */
+    max-width: 500px;
 }
 
 header {
