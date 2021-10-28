@@ -1,5 +1,5 @@
 /* @font-face {
-    font-family: ws-inkski-font;
+    font-family: ws_inkskiregular;
     src: url('WsInkski-6Oro.ttf');
 } */
 @font-face {
@@ -51,7 +51,7 @@ nav {
     display: inline-block;
     margin-right: 20px;
     margin-left: auto;
-    font-family: ws-inkski-font;
+    font-family: ws_inkskiregular;
 }
 
 #header li:last-child {
@@ -74,7 +74,7 @@ h1 {
     color: white;
     font-size: medium;
     font-weight: normal;
-    font-family: ws-inkski-font;
+    font-family: ws_inkskiregular;
     height: fit-content;
     margin: 0;
     margin-bottom: -5px;
@@ -89,7 +89,7 @@ h2 {
     color: white;
     font-size: medium;
     font-weight: normal;
-    font-family: ws-inkski-font;
+    font-family: ws_inkskiregular;
 }
 
 .centered {
@@ -161,7 +161,7 @@ footer {
     color: white;
     font-size: medium;
     font-weight: normal;
-    font-family: ws-inkski-font;
+    font-family: ws_inkskiregular;
 }
 
 /* .active, */
